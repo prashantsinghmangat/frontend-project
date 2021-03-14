@@ -40,12 +40,17 @@
 .right {
   margin-top: 50px;
   shape-outside: inset(100px 10px 20px 10px);
-  background-color: rgb(170, 165, 165);
-  /* clip-path: inset(0 0 10px 0); */
-  /* background-color: red; */
+  background-color: rgb(255, 255, 255);
   width: 70%;
-  height: 200px;
+  height: 50%;
   float: right;
+}
+
+.innerright{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #000;
+    font-style: italic;
 }
 
 .line {
@@ -786,7 +791,7 @@ div.tab button:hover {
 
 .footer {
     padding: 4rem 0 4rem;
-    background-color: #5e5e5e;
+    background-color: #28373E;
     /* background: url(images/footer.png) repeat-x center bottom #edeff2; */
 }
 
