@@ -29,12 +29,7 @@
     shape-outside: inset(top right bottom left border-radius);
   } */
 
-  .left,
-.right {
-  width: 40%;
-  height: 12ex;
-  background-color: lightgray;
-}
+ 
 
 
 .right {
@@ -48,9 +43,16 @@
 
 .innerright{
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
+    color: #28373E;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.innersign{
     color: #000;
     font-style: italic;
+    float: right;
 }
 
 .line {
@@ -176,10 +178,13 @@
 }
 
 .tm-gallery-title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: #41AFAE ;
-  padding: 10px
+  /* padding: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .tm-gallery-description {
@@ -303,7 +308,6 @@ p {
 }
 
 p {
-    margin-bottom: 26px;
     font-size: 15px;
     line-height: 26px;
 }
@@ -597,7 +601,7 @@ div.tab button:hover {
 **************************************/
 
 .section {
-    padding: 4rem 0;
+    padding: 2rem 0;
     display: block;
     position: relative;
     background-color: #ffffff;
@@ -896,6 +900,54 @@ div.tab button:hover {
 
 /* PAGES 
 **************************************/
+
+.notfound h2 {
+    font-family: Comic Sans MS;
+    font-size: 140px;
+    padding: 0 0 1.7rem;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.notfound h3 {
+    font-size: 40px;
+    padding: 0 0 0.6rem;
+    margin: 0;
+}
+
+.notfound p {
+    padding: 1rem 0 1.4rem;
+    margin-bottom: 0;
+}
+
+.sitemap-wrapper {
+    margin-bottom: 2rem;
+    position: relative;
+    border: 1px dashed #dadada;
+    padding: 2rem;
+}
+
+.sitemap-wrapper .year {
+    position: absolute;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    top: -12px;
+}
+
+.sitemap-text {
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.sitemap-wrapper small {
+    display: block;
+    font-size: 11px;
+    padding: 0;
+    margin: 0 0 0.5rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
 
 .breadcrumb {
     background-color: transparent;
@@ -1421,6 +1473,13 @@ hr.invis3 {
     margin-top: 1rem;
     background-color: #ffffff;
     padding: 1rem 1.5rem 1rem;
+}
+
+.title-style{
+    background-color: #ffffff;
+    font-weight: 600;
+    margin: 0;
+    font-size: 28px;
 }
 
 .blog-custom-build .blog-meta {
